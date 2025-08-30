@@ -129,9 +129,51 @@ RL\_Assignment1/
 
 ---
 
-## 📑 Deliverables
+## 🧩 Maze Layout
 
-* ✅ Well-commented source code (`src/`)
-* ✅ Simulation results (`results/`)
-* ✅ Final compact report (`report/Assignment1_Final_Report.pdf`)
+Here is the grid maze used in this assignment:
+
+![Maze Layout](results/grid.png)
+
+- Yellow = walls  
+- Purple = free cells  
+- Start = bottom-left (5,0)  
+- Goal = top-right (0,5)  
+
+---
+
+## 📊 Simulation Results
+
+### 🔹 Random Policy
+- Highly variable performance  
+- Sometimes reaches the goal, often fails within 200 steps  
+
+**Steps per Episode (Random):**
+
+![Steps per Episode - Random](results/steps_random.png)
+
+**Rewards per Episode (Random):**
+
+![Rewards per Episode - Random](results/rewards_random.png)
+
+---
+
+### 🔹 Greedy Policy
+- Always succeeds in exactly 10 steps  
+- Achieves consistent reward = +1 every episode  
+
+**Steps per Episode (Greedy):**
+
+![Steps per Episode - Greedy](results/steps_greedy.png)
+
+**Rewards per Episode (Greedy):**
+
+![Rewards per Episode - Greedy](results/rewards_greedy.png)
+
+---
+
+## 📈 Comparison
+- Random → inefficient, unstable (long & negative episodes)  
+- Greedy → consistent, fast, reliable (10 steps, +1 reward)  
+
 
