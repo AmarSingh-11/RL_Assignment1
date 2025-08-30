@@ -36,17 +36,7 @@ The project simulates **20 episodes per policy**, logs trajectories, computes st
 - **Goal:** `(0,5)` (top-right)  
 - **Walls:** (1,1), (1,2), (1,4), (2,4), (3,1), (3,2), (3,4), (4,4)  
 
----
-## 📂 Project Structure
-Ah I see what’s happening 👍 — GitHub Markdown is showing your **project structure tree all in one line** instead of formatted nicely. That’s because you copied the plain-text “code fence” incorrectly or didn’t keep it inside triple backticks.
 
-Here’s the **fixed version** of the Project Structure section for your `README.md`. Just copy-paste exactly as below (keep the triple backticks ` ``` ` at the top and bottom):
-
-Got it ✅ — your snippet has an **extra pair of backticks** that causes the rendering issue.
-Here’s the **fixed Markdown** you should paste into your `README.md`.
-It will display exactly as a clean tree structure when you commit to GitHub:
-
-```markdown
 ## 📂 Project Structure
 
 ```
@@ -79,14 +69,6 @@ RL\_Assignment1/
 └── README.md             # This file
 
 ```
-```
-
-⚡ The important change is:
-
-* Only **one pair** of triple backticks wraps the tree block.
-* No extra `markdown or ending ` outside.
-
-Would you like me to also give you a **ready-made tree generator command** (like `tree /F` for Windows or `tree -L 2` for Linux/Mac) so you can easily regenerate this structure if files change?
 
 
 
