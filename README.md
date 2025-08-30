@@ -1,5 +1,3 @@
-Perfect 🚀 — here’s the updated **README.md template** with a **badges section** at the top. These badges make your GitHub repo look polished and professional:
-
 ```markdown
 # RL Assignment 1 – Grid Maze as an MDP  
 
