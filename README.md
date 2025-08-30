@@ -37,9 +37,14 @@ The project simulates **20 episodes per policy**, logs trajectories, computes st
 - **Walls:** (1,1), (1,2), (1,4), (2,4), (3,1), (3,2), (3,4), (4,4)  
 
 ---
-
 ## 📂 Project Structure
+Ah I see what’s happening 👍 — GitHub Markdown is showing your **project structure tree all in one line** instead of formatted nicely. That’s because you copied the plain-text “code fence” incorrectly or didn’t keep it inside triple backticks.
 
+Here’s the **fixed version** of the Project Structure section for your `README.md`. Just copy-paste exactly as below (keep the triple backticks ` ``` ` at the top and bottom):
+
+```markdown
+## 📂 Project Structure
+```
 
 RL\_Assignment1/
 │
@@ -67,6 +72,9 @@ RL\_Assignment1/
 │   └── Assignment1\_Report\_Compact\_3pg.pdf
 │
 └── README.md             # This file
+
+```
+```
 
 
 
