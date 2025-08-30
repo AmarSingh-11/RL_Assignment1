@@ -1,0 +1,12 @@
+{
+  "policy": "greedy",
+  "episodes": 20,
+  "successes": 20,
+  "success_rate": 1.0,
+  "steps_min": 10.0,
+  "steps_max": 10.0,
+  "steps_avg": 10.0,
+  "reward_min": 1.0,
+  "reward_max": 1.0,
+  "reward_avg": 1.0
+}

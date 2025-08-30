@@ -1,0 +1,26 @@
+{
+  "random": {
+    "policy": "random",
+    "episodes": 20,
+    "successes": 12,
+    "success_rate": 0.6,
+    "steps_min": 34.0,
+    "steps_max": 200.0,
+    "steps_avg": 141.5,
+    "reward_min": -287.0,
+    "reward_max": -37.0,
+    "reward_avg": -188.2
+  },
+  "greedy": {
+    "policy": "greedy",
+    "episodes": 20,
+    "successes": 20,
+    "success_rate": 1.0,
+    "steps_min": 10.0,
+    "steps_max": 10.0,
+    "steps_avg": 10.0,
+    "reward_min": 1.0,
+    "reward_max": 1.0,
+    "reward_avg": 1.0
+  }
+}
