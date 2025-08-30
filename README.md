@@ -42,8 +42,13 @@ Ah I see what’s happening 👍 — GitHub Markdown is showing your **project s
 
 Here’s the **fixed version** of the Project Structure section for your `README.md`. Just copy-paste exactly as below (keep the triple backticks ` ``` ` at the top and bottom):
 
+Got it ✅ — your snippet has an **extra pair of backticks** that causes the rendering issue.
+Here’s the **fixed Markdown** you should paste into your `README.md`.
+It will display exactly as a clean tree structure when you commit to GitHub:
+
 ```markdown
 ## 📂 Project Structure
+
 ```
 
 RL\_Assignment1/
@@ -75,6 +80,13 @@ RL\_Assignment1/
 
 ```
 ```
+
+⚡ The important change is:
+
+* Only **one pair** of triple backticks wraps the tree block.
+* No extra `markdown or ending ` outside.
+
+Would you like me to also give you a **ready-made tree generator command** (like `tree /F` for Windows or `tree -L 2` for Linux/Mac) so you can easily regenerate this structure if files change?
 
 
 
