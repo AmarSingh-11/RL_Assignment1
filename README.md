@@ -1,4 +1,4 @@
-```markdown
+
 # RL Assignment 1 – Grid Maze as an MDP  
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)  
@@ -39,7 +39,7 @@ The project simulates **20 episodes per policy**, logs trajectories, computes st
 ---
 
 ## 📂 Project Structure
-```
+
 
 RL\_Assignment1/
 │
@@ -68,9 +68,7 @@ RL\_Assignment1/
 │
 └── README.md             # This file
 
-````
 
----
 
 ## ▶️ How to Run
 
@@ -78,7 +76,7 @@ RL\_Assignment1/
    ```bash
    git clone https://github.com/AmarSingh-11/RL_Assignment1.git
    cd RL_Assignment1
-````
+
 
 2. **Run all experiments**
 
